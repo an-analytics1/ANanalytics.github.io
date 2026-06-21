@@ -3,145 +3,240 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AN Analytics | Data Science Services</title>
+    <title>AN Analytics | Professional Data Science & BI Services</title>
+    <!-- Tailwind CSS for modern styling -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome for clean icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body class="bg-slate-900 text-slate-100 font-sans scroll-smooth">
 
+    <!-- Navigation -->
     <nav class="fixed w-full bg-slate-900/90 backdrop-blur-md z-50 border-b border-slate-800">
         <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
             <a href="#" class="text-xl font-bold tracking-wider text-cyan-400"><i class="fa-solid fa-chart-network mr-2"></i>AN ANALYTICS</a>
             <div class="space-x-6 text-sm font-medium">
                 <a href="#services" class="hover:text-cyan-400 transition">Services</a>
-                <a href="#portfolio" class="hover:text-cyan-400 transition">Case Studies</a>
+                <a href="#pricing" class="hover:text-cyan-400 transition">Pricing</a>
+                <a href="#portfolio" class="hover:text-cyan-400 transition">Demonstration Projects</a>
                 <a href="#about" class="hover:text-cyan-400 transition">About</a>
                 <a href="#contact" class="bg-cyan-500 text-slate-950 px-4 py-2 rounded-md hover:bg-cyan-400 transition">Get a Quote</a>
             </div>
         </div>
     </nav>
 
+    <!-- Hero Section (Feedback Fix 1: Freelancer -> Agency Phrasing) -->
     <header class="pt-32 pb-20 px-4 max-w-6xl mx-auto text-center">
         <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight mb-6">
             Turn Raw Data Into <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Predictive Revenue.</span>
         </h1>
         <p class="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto mb-10">
-            I build custom data pipelines, interactive business intelligence dashboards, and predictive machine learning models to solve complex business problems.
+            We deliver data analytics, automated business intelligence solutions, and predictive machine learning models to solve complex operational challenges.
         </p>
         <div class="flex justify-center gap-4">
             <a href="#contact" class="bg-cyan-500 text-slate-950 px-6 py-3 rounded-md font-semibold hover:bg-cyan-400 transition shadow-lg shadow-cyan-500/20">Book a Free Consultation</a>
-            <!-- WhatsApp Button -->
+            <!-- Kept exact WhatsApp details -->
             <a href="https://wa.me/923000171418?text=Hi%20AN%20Analytics,%20I'm%20interested%20in%20your%20data%20services!" target="_blank" class="border border-green-500 text-green-400 px-6 py-3 rounded-md font-semibold hover:bg-green-500 hover:text-slate-950 transition flex items-center gap-2">
                 <i class="fa-brands fa-whatsapp text-xl"></i> Chat on WhatsApp
             </a>
         </div>
     </header>
 
+    <!-- Detailed Services Section (Feedback Fix: Expanded for SEO Keywords) -->
     <section id="services" class="py-20 bg-slate-950 border-y border-slate-800">
         <div class="max-w-6xl mx-auto px-4">
             <div class="text-center mb-16">
-                <h2 class="text-3xl font-bold mb-4">Expert Data Services</h2>
-                <p class="text-slate-400">Tailored analytical solutions designed to scale your operational efficiency.</p>
+                <h2 class="text-3xl font-bold mb-4">Enterprise Business Intelligence & Data Services</h2>
+                <p class="text-slate-400">Tailored analytical architectures designed to scale organizational efficiency.</p>
             </div>
             
-            <div class="grid md:grid-cols-3 gap-8">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service 1 -->
                 <div class="bg-slate-900 p-8 rounded-xl border border-slate-800 hover:border-cyan-500/50 transition">
                     <div class="text-cyan-400 text-3xl mb-4"><i class="fa-solid fa-chart-pie"></i></div>
-                    <h3 class="text-xl font-bold mb-3">BI & Interactive Dashboards</h3>
+                    <h3 class="text-xl font-bold mb-3">Power BI Dashboard Services</h3>
                     <p class="text-slate-400 text-sm leading-relaxed">
-                        Transform messy spreadsheets into automated Tableau, Power BI, or Looker Studio dashboards. Track KPIs in real-time.
+                        Transform messy corporate spreadsheets into completely automated Power BI architecture. Real-time KPI tracking for executive management.
                     </p>
                 </div>
+                <!-- Service 2 -->
+                <div class="bg-slate-900 p-8 rounded-xl border border-slate-800 hover:border-cyan-500/50 transition">
+                    <div class="text-cyan-400 text-3xl mb-4"><i class="fa-solid fa-chart-column"></i></div>
+                    <h3 class="text-xl font-bold mb-3">Tableau Dashboard Development</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Custom interactive Tableau visualization frameworks built to discover hidden operational bottlenecks and optimize business infrastructure.
+                    </p>
+                </div>
+                <!-- Service 3 -->
+                <div class="bg-slate-900 p-8 rounded-xl border border-slate-800 hover:border-cyan-500/50 transition">
+                    <div class="text-cyan-400 text-3xl mb-4"><i class="fa-solid fa-broom"></i></div>
+                    <h3 class="text-xl font-bold mb-3">Data Cleaning Services</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Meticulous data preparation, structural validation, and anomalies removal using automated Python and SQL scripts before model integration.
+                    </p>
+                </div>
+                <!-- Service 4 -->
+                <div class="bg-slate-900 p-8 rounded-xl border border-slate-800 hover:border-cyan-500/50 transition">
+                    <div class="text-cyan-400 text-3xl mb-4"><i class="fa-solid fa-database"></i></div>
+                    <h3 class="text-xl font-bold mb-3">Business Intelligence Consulting</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Strategic technical advising regarding enterprise modern data stacks, cloud transformations, and automated commercial reporting tools.
+                    </p>
+                </div>
+                <!-- Service 5 -->
                 <div class="bg-slate-900 p-8 rounded-xl border border-slate-800 hover:border-cyan-500/50 transition">
                     <div class="text-cyan-400 text-3xl mb-4"><i class="fa-solid fa-brain"></i></div>
                     <h3 class="text-xl font-bold mb-3">Predictive Modeling & ML</h3>
                     <p class="text-slate-400 text-sm leading-relaxed">
-                        Forecast sales, prevent customer churn, and build recommendation engines using custom machine learning algorithms.
+                        Custom machine learning algorithmic deployment to accurately forecast market demand cycles and mathematically minimize user churn.
                     </p>
                 </div>
+                <!-- Service 6 -->
                 <div class="bg-slate-900 p-8 rounded-xl border border-slate-800 hover:border-cyan-500/50 transition">
-                    <div class="text-cyan-400 text-3xl mb-4"><i class="fa-solid fa-database"></i></div>
+                    <div class="text-cyan-400 text-3xl mb-4"><i class="fa-solid fa-network-wired"></i></div>
                     <h3 class="text-xl font-bold mb-3">Data Engineering & Pipelines</h3>
                     <p class="text-slate-400 text-sm leading-relaxed">
-                        Clean, restructure, and automate your data workflows. ETL pipeline development connecting SQL, NoSQL, or cloud APIs.
+                        Advanced cloud-native ETL architecture mapping structured or unstructured formats directly into high-performance warehouses.
                     </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="portfolio" class="py-20 max-w-6xl mx-auto px-4">
+    <!-- Transparent Pricing Section (Feedback Fix 3: Added Pricing Tiers) -->
+    <section id="pricing" class="py-20 max-w-6xl mx-auto px-4">
         <div class="text-center mb-16">
-            <h2 class="text-3xl font-bold mb-4">Proven Business Impact</h2>
-            <p class="text-slate-400">Real problems solved with data-driven code.</p>
+            <h2 class="text-3xl font-bold mb-4">Transparent Project Pricing</h2>
+            <p class="text-slate-400">Clear investment tiers tailored exactly to your current data demands.</p>
         </div>
+        
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- Tier 1 -->
+            <div class="bg-slate-950 p-8 rounded-xl border border-slate-800 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-lg font-bold text-slate-400 mb-2">Data Preparation</h3>
+                    <div class="text-3xl font-extrabold mb-4 text-cyan-400">Starting at $49</div>
+                    <p class="text-sm text-slate-400 mb-6">Perfect for processing, structural cleaning, and preparing messy source records for analytical ingestion.</p>
+                </div>
+                <ul class="text-xs text-slate-400 space-y-2 mb-6 border-t border-slate-800 pt-4">
+                    <li><i class="fa-solid fa-check text-cyan-400 mr-2"></i>Data Cleaning & Normalization</li>
+                    <li><i class="fa-solid fa-check text-cyan-400 mr-2"></i>SQL / Python Pipeline Scripting</li>
+                    <li><i class="fa-solid fa-check text-cyan-400 mr-2"></i>Delivered Clean CSV/Excel/SQL Export</li>
+                </ul>
+                <a href="#contact" class="w-full text-center bg-slate-900 hover:bg-slate-800 border border-slate-700 py-2 rounded text-sm font-semibold transition">Select Package</a>
+            </div>
+            <!-- Tier 2 -->
+            <div class="bg-slate-950 p-8 rounded-xl border-2 border-cyan-500 flex flex-col justify-between relative">
+                <span class="absolute -top-3 left-1/2 -translate-x-1/2 bg-cyan-500 text-slate-950 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Most Popular</span>
+                <div>
+                    <h3 class="text-lg font-bold text-slate-300 mb-2">Dashboard Development</h3>
+                    <div class="text-3xl font-extrabold mb-4 text-cyan-400">Starting at $99</div>
+                    <p class="text-sm text-slate-400 mb-6">Interactive management visualization layers connecting multiple distinct corporate asset metrics seamlessly.</p>
+                </div>
+                <ul class="text-xs text-slate-400 space-y-2 mb-6 border-t border-slate-800 pt-4">
+                    <li><i class="fa-solid fa-check text-cyan-400 mr-2"></i>Power BI / Tableau Architecture</li>
+                    <li><i class="fa-solid fa-check text-cyan-400 mr-2"></i>Up to 3 Custom Report Views</li>
+                    <li><i class="fa-solid fa-check text-cyan-400 mr-2"></i>Automated Native Refresh Logic</li>
+                </ul>
+                <a href="#contact" class="w-full text-center bg-cyan-500 text-slate-950 hover:bg-cyan-400 py-2 rounded text-sm font-bold transition">Select Package</a>
+            </div>
+            <!-- Tier 3 -->
+            <div class="bg-slate-950 p-8 rounded-xl border border-slate-800 flex flex-col justify-between">
+                <div>
+                    <h3 class="text-lg font-bold text-slate-400 mb-2">Advanced Analytics & ML</h3>
+                    <div class="text-3xl font-extrabold mb-4 text-cyan-400">Starting at $149</div>
+                    <p class="text-sm text-slate-400 mb-6">Advanced algorithmic processing built to uncover high-impact system patterns and predictive forecasts.</p>
+                </div>
+                <ul class="text-xs text-slate-400 space-y-2 mb-6 border-t border-slate-800 pt-4">
+                    <li><i class="fa-solid fa-check text-cyan-400 mr-2"></i>Predictive Model Construction</li>
+                    <li><i class="fa-solid fa-check text-cyan-400 mr-2"></i>Advanced Statistical Assessment</li>
+                    <li><i class="fa-solid fa-check text-cyan-400 mr-2"></i>Full Cloud Infrastructure Advisory</li>
+                </ul>
+                <a href="#contact" class="w-full text-center bg-slate-900 hover:bg-slate-800 border border-slate-700 py-2 rounded text-sm font-semibold transition">Select Package</a>
+            </div>
+        </div>
+    </section>
 
-        <div class="grid md:grid-cols-2 gap-8">
-            <div class="bg-slate-950 rounded-xl overflow-hidden border border-slate-800">
-                <div class="p-6">
-                    <span class="text-xs font-semibold text-cyan-400 tracking-wider uppercase">Machine Learning</span>
-                    <h3 class="text-xl font-bold mt-2 mb-3">E-Commerce Customer Churn Prediction</h3>
-                    <p class="text-slate-400 text-sm mb-4">
-                        Built an end-to-end Python model to identify at-risk subscribers. Reduced company churn rate by 14% via targeted campaigns.
-                    </p>
-                    <div class="flex gap-2 text-xs font-mono text-slate-500">
-                        <span>#Python</span> <span>#Scikit-Learn</span> <span>#SQL</span>
+    <!-- Portfolio Section (Feedback Fix 2: Changed to Demonstration Case Studies) -->
+    <section id="portfolio" class="py-20 bg-slate-950 border-t border-slate-800">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">Functional Demonstration Projects</h2>
+                <p class="text-slate-400">Analytical reference blueprints mapped out to tackle structural business hurdles.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-slate-900 rounded-xl overflow-hidden border border-slate-800">
+                    <div class="p-6">
+                        <span class="text-xs font-semibold text-cyan-400 tracking-wider uppercase">Demonstration Case Study</span>
+                        <h3 class="text-xl font-bold mt-2 mb-3">Subscriber Base Churn Forecasting Model</h3>
+                        <p class="text-slate-400 text-sm mb-4">
+                            An architectural design framework documenting how algorithmic classification tracking can flag early at-risk accounts, creating a mathematical approach to optimizing revenue retention.
+                        </p>
+                        <div class="flex gap-2 text-xs font-mono text-slate-500">
+                            <span>#Python</span> <span>#Scikit-Learn</span> <span>#SQL</span>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="bg-slate-950 rounded-xl overflow-hidden border border-slate-800">
-                <div class="p-6">
-                    <span class="text-xs font-semibold text-cyan-400 tracking-wider uppercase">Analytics / BI</span>
-                    <h3 class="text-xl font-bold mt-2 mb-3">Executive Financial Performance Dashboard</h3>
-                    <p class="text-slate-400 text-sm mb-4">
-                        Consolidated 5 disparate API data streams into a single automated dashboard, saving the finance team 12 hours of manual reporting per week.
-                    </p>
-                    <div class="flex gap-2 text-xs font-mono text-slate-500">
-                        <span>#PowerBI</span> <span>#ETL</span> <span>#Tableau</span>
+                <!-- Project 2 -->
+                <div class="bg-slate-900 rounded-xl overflow-hidden border border-slate-800">
+                    <div class="p-6">
+                        <span class="text-xs font-semibold text-cyan-400 tracking-wider uppercase">Demonstration Case Study</span>
+                        <h3 class="text-xl font-bold mt-2 mb-3">Automated Financial Performance Blueprint</h3>
+                        <p class="text-slate-400 text-sm mb-4">
+                            A functional interface design connecting diverse performance indicators directly onto an active dashboard framework, proving how automation removes human extraction overhead.
+                        </p>
+                        <div class="flex gap-2 text-xs font-mono text-slate-500">
+                            <span>#PowerBI</span> <span>#ETL</span> <span>#Tableau</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="about" class="py-20 bg-slate-950 border-t border-slate-800">
+    <!-- About Section -->
+    <section id="about" class="py-20 border-b border-slate-800">
         <div class="max-w-4xl mx-auto px-4 text-center">
-            <h2 class="text-3xl font-bold mb-6">Hi, I'm Your Data Partner</h2>
+            <h2 class="text-3xl font-bold mb-6">Your Strategic Data Partner</h2>
             <p class="text-lg text-slate-300 leading-relaxed mb-6">
-                I bridge the gap between complex engineering and business strategy. Whether you're a startup trying to make sense of early user traction or an established business optimizing operations, I engineer the data infrastructure you need to make confident decisions.
+                AN Analytics bridges the technical gap between data asset engineering and corporate business strategy. Whether you're a lean startup aiming to understand initial web scale or an established commercial firm optimizing internal overhead, we engineer the high-performance pipeline frameworks required to clear structural roadblocks.
             </p>
             <p class="text-sm text-slate-500 font-mono">
-                Tech Stack: Python • SQL • R • Tableau • PowerBI • AWS • Snowflake • Git
+                Core Stack Capabilities: Python • SQL • R • Tableau • PowerBI • AWS • Snowflake • Git
             </p>
         </div>
     </section>
 
+    <!-- Contact Form Section -->
     <section id="contact" class="py-20 max-w-xl mx-auto px-4">
         <div class="text-center mb-10">
-            <h2 class="text-3xl font-bold mb-2">Let's Work Together</h2>
-            <p class="text-slate-400">Describe your data bottleneck and get a reply within 24 hours.</p>
+            <h2 class="text-3xl font-bold mb-2">Let's Initiate Your Project</h2>
+            <p class="text-slate-400">Outline your system bottlenecks. Our engineering office will reply with a detailed response layout within 24 hours.</p>
         </div>
 
         <form action="https://formspree.io/f/your_form_id_here" method="POST" class="space-y-6">
             <div>
-                <label class="block text-sm font-medium mb-2 text-slate-300">Name</label>
+                <label class="block text-sm font-medium mb-2 text-slate-300">Corporate Representative / Name</label>
                 <input type="text" name="name" required class="w-full bg-slate-900 border border-slate-700 rounded px-4 py-3 text-slate-100 focus:outline-none focus:border-cyan-500">
             </div>
             <div>
-                <label class="block text-sm font-medium mb-2 text-slate-300">Email Address</label>
+                <label class="block text-sm font-medium mb-2 text-slate-300">Business Email Address</label>
                 <input type="email" name="email" required class="w-full bg-slate-900 border border-slate-700 rounded px-4 py-3 text-slate-100 focus:outline-none focus:border-cyan-500">
             </div>
             <div>
-                <label class="block text-sm font-medium mb-2 text-slate-300">Project Requirements</label>
-                <textarea name="message" rows="4" required placeholder="What kind of data/dashboards do you need?" class="w-full bg-slate-900 border border-slate-700 rounded px-4 py-3 text-slate-100 focus:outline-none focus:border-cyan-500"></textarea>
+                <label class="block text-sm font-medium mb-2 text-slate-300">Technical Specifications & Project Targets</label>
+                <textarea name="message" rows="4" required placeholder="What operational workflows or database visual frameworks does your company need addressed?" class="w-full bg-slate-900 border border-slate-700 rounded px-4 py-3 text-slate-100 focus:outline-none focus:border-cyan-500"></textarea>
             </div>
             <button type="submit" class="w-full bg-cyan-500 text-slate-950 font-bold py-3 rounded hover:bg-cyan-400 transition">
-                Send Inquiry
+                Submit Corporate Request
             </button>
         </form>
     </section>
 
-    <footer class="py-8 text-center text-xs text-slate-600 border-t border-slate-800">
+    <!-- Footer -->
+    <footer class="py-8 text-center text-xs text-slate-600 border-t border-slate-800 bg-slate-950">
         <p>&copy; 2026 AN ANALYTICS. All rights reserved.</p>
     </footer>
 
